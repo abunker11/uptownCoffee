@@ -1,0 +1,35 @@
+:root {
+    --white: #ccc5b9;
+    --light-gray: #ccc5b9;
+    --dark-gray: #403d39;
+    --black: #252422;
+    --orange: #eb5e28;
+}
+body {
+    background-color: var(--orange);
+    color: var(--black);
+    text-align: center;
+    margin: 0;
+}
+
+.mainSections {
+    background-color: var(--light-gray);
+    width: 50%;
+    margin:auto;
+    margin-bottom: 20px;
+    border-color: dark-gray;
+    border-style: double;
+    border-width: 5px;
+    padding: 30px;
+    padding-top: 0px;
+}
+
+#venue {
+    
+    background-color: var(--black);
+    color: var(--orange);
+    border-color: var(--light-gray);
+    border-style:ridge;
+    border-width: 15px;
+
+}

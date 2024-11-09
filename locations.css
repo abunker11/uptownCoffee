@@ -1,0 +1,37 @@
+:root {
+    --white: #ccc5b9;
+    --light-gray: #ccc5b9;
+    --dark-gray: #403d39;
+    --black: #252422;
+    --orange: #eb5e28;
+}
+body {
+    background-color: var(--orange);
+    color: var(--black);
+    text-align: center;
+    margin: 0;
+}
+.flexContainer{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mainSections {
+    border: var(--black) 2px solid;
+    background-color: var(--light-gray);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    
+    margin-bottom: 10px;
+}
+
+.text {
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    border: var(--orange) 2px double;
+    padding: 10px;
+    margin-bottom: 10px;
+}
